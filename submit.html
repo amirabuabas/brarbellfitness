@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submition</title>
+    <link rel="stylesheet" href="submit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <form action="https://formsubmit.co/amiraboabas57@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="//thank.html">
+      <input type="hidden" name="_subject" value="New contact submission!!">
+      <input type="hidden" name="_captcha" value="false">
+      <i class="fas fa-paper-plane"></i>
+      <div class="input-group">
+        <label class="col-25"><i class="fa-solid fa-user"></i> Full Name</label>
+        <input class="col-75" name="full-name" type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="input-group">
+        <label class="col-25"><i class="fa-solid fa-phone"></i> Phone No.</label>
+        <input class="col-75" name="phone-no"type="tel" placeholder="123 456 7890" required>
+      </div>
+      <div class="input-group">
+        <label class="col-25"><i class="fa-solid fa-calendar-days"></i> What Is Your Date Of Birth?</label>
+        <input class="col-75" name="age" type="date" placeholder="Please use the format YYYY-MM-DD" required>
+      </div>
+      <div class="input-group">
+        <label class="col-25"><i class="fa-solid fa-envelope"></i> Email Id</label>
+        <input class="col-75" name="email" type="email" placeholder="Enter Email" required>
+      </div>   
+      <div class="input-group">
+        <label for="textarea"><i class="fa-solid fa-message"></i> Tell Me About Your Fitness Goal? </label>
+        <input class="fitness-goal" name="fitness-goal" r placeholder="Enter your message" required></input>
+      </div>
+      <p data-text="Choose Your Fitness Goal">What Is Your Self Identified Gender?</p>
+      <div class="input-radio">
+        <label data-text="Male" aria-required="true">
+          <input type="radio" name="gender" value="Male"> Male
+          <span class="dot"></span>
+        </label>
+        <label data-text="Famale">
+          <input type="radio" name="gender" value="Famale"> Female
+          <span class="dot"></span>
+        </label>
+        <label data-text="Famale">
+          <input type="radio" name="gender" value="other"> Other
+          <span class="dot"></span>
+        </label>
+      </div>
+    <button type="submit">Submit</button>
+  </form>
+  </div>
+</body>
+</html>
